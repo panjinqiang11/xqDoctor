@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TitleView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京协和医院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAl-Kb-8uv">
+                    <rect key="frame" x="14" y="19" width="90" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三级甲等" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2L-An-ID1">
+                    <rect key="frame" x="117" y="19" width="56" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="local_icon" translatesAutoresizingMaskIntoConstraints="NO" id="DgW-RV-Ddx">
+                    <rect key="frame" x="14" y="45" width="20" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="lBS-8l-dGy"/>
+                        <constraint firstAttribute="width" constant="20" id="xgy-aq-KC0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京市东城区帅府园一号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRD-H7-d9s">
+                    <rect key="frame" x="42" y="48" width="154" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.01176470588" green="0.60784313729999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjs-w2-nwt">
+                    <rect key="frame" x="216" y="47" width="32" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.01176470588" green="0.60784313729999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看医院详情" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAY-oE-1m9">
+                    <rect key="frame" x="478" y="19" width="102" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YFU-M3-dXA">
+                    <rect key="frame" x="478" y="40" width="102" height="1"/>
+                    <color key="backgroundColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="21x-q7-6PZ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hX2-7c-f3k">
+                    <rect key="frame" x="0.0" y="78" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Xe9-q0-MWJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DgW-RV-Ddx" firstAttribute="top" secondItem="SAl-Kb-8uv" secondAttribute="bottom" constant="8" id="6p6-3D-evB"/>
+                <constraint firstItem="YFU-M3-dXA" firstAttribute="leading" secondItem="nAY-oE-1m9" secondAttribute="leading" id="9zv-At-JwI"/>
+                <constraint firstItem="nAY-oE-1m9" firstAttribute="top" secondItem="SAl-Kb-8uv" secondAttribute="top" id="BIp-p4-wrc"/>
+                <constraint firstAttribute="trailing" secondItem="nAY-oE-1m9" secondAttribute="trailing" constant="20" id="ESy-Sz-M5e"/>
+                <constraint firstItem="HRD-H7-d9s" firstAttribute="leading" secondItem="DgW-RV-Ddx" secondAttribute="trailing" constant="8" id="O2a-IY-raF"/>
+                <constraint firstItem="nAY-oE-1m9" firstAttribute="leading" secondItem="hX2-7c-f3k" secondAttribute="trailing" id="Qaq-Jz-T6y"/>
+                <constraint firstItem="SAl-Kb-8uv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="14" id="Ume-On-6kk"/>
+                <constraint firstItem="YFU-M3-dXA" firstAttribute="top" secondItem="nAY-oE-1m9" secondAttribute="bottom" id="b3Q-Vq-zH7"/>
+                <constraint firstItem="hX2-7c-f3k" firstAttribute="leading" secondItem="pjs-w2-nwt" secondAttribute="trailing" id="csH-6E-Pwe"/>
+                <constraint firstItem="DgW-RV-Ddx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="14" id="eK9-DO-Bzd"/>
+                <constraint firstItem="O2L-An-ID1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="fsZ-WG-kHo"/>
+                <constraint firstAttribute="trailing" secondItem="hX2-7c-f3k" secondAttribute="trailing" id="h07-kU-9rA"/>
+                <constraint firstItem="SAl-Kb-8uv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="hdZ-TN-0br"/>
+                <constraint firstItem="YFU-M3-dXA" firstAttribute="trailing" secondItem="nAY-oE-1m9" secondAttribute="trailing" id="kJg-lN-xN5"/>
+                <constraint firstItem="pjs-w2-nwt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="47" id="n5h-UC-WG5"/>
+                <constraint firstItem="hX2-7c-f3k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oIi-CQ-CL9"/>
+                <constraint firstItem="pjs-w2-nwt" firstAttribute="leading" secondItem="HRD-H7-d9s" secondAttribute="trailing" constant="20" id="ogO-RG-Opn"/>
+                <constraint firstItem="O2L-An-ID1" firstAttribute="leading" secondItem="SAl-Kb-8uv" secondAttribute="trailing" constant="13" id="ptP-px-fnu"/>
+                <constraint firstAttribute="bottom" secondItem="hX2-7c-f3k" secondAttribute="bottom" constant="1" id="tb9-sV-g40"/>
+                <constraint firstItem="HRD-H7-d9s" firstAttribute="top" secondItem="SAl-Kb-8uv" secondAttribute="bottom" constant="11" id="v13-rq-cqL"/>
+                <constraint firstItem="YFU-M3-dXA" firstAttribute="top" secondItem="nAY-oE-1m9" secondAttribute="bottom" id="zzh-Il-8sF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="csH-6E-Pwe"/>
+                    <exclude reference="Qaq-Jz-T6y"/>
+                    <exclude reference="zzh-Il-8sF"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="descriptionLabel" destination="nAY-oE-1m9" id="8eI-Y3-WiO"/>
+                <outlet property="distanceLabel" destination="pjs-w2-nwt" id="hzx-lO-Aos"/>
+                <outlet property="hpName" destination="SAl-Kb-8uv" id="V3Y-6g-XWQ"/>
+                <outlet property="levelLabel" destination="O2L-An-ID1" id="6XE-GN-wPk"/>
+                <outlet property="localLabel" destination="HRD-H7-d9s" id="6dw-zx-uGV"/>
+            </connections>
+            <point key="canvasLocation" x="326" y="213"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="local_icon" width="32" height="32"/>
+    </resources>
+</document>

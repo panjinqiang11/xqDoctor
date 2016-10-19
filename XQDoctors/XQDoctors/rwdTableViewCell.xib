@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="abc" rowHeight="92" id="KGk-i7-Jjw" customClass="rwdTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="91"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="右箭头灰色" translatesAutoresizingMaskIntoConstraints="NO" id="B0Q-uA-qxG">
+                        <rect key="frame" x="361" y="36" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="aTo-FL-scD"/>
+                            <constraint firstAttribute="width" constant="20" id="p2V-m4-KIB"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAo-Hi-iwz">
+                        <rect key="frame" x="10" y="50" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="B0Q-uA-qxG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6QR-3z-enZ"/>
+                    <constraint firstItem="NAo-Hi-iwz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="UoR-ee-pUC"/>
+                    <constraint firstItem="B0Q-uA-qxG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Xub-2t-jc2"/>
+                    <constraint firstAttribute="bottom" secondItem="NAo-Hi-iwz" secondAttribute="bottom" constant="20" id="v7M-Kj-1Rp"/>
+                    <constraint firstAttribute="trailing" secondItem="B0Q-uA-qxG" secondAttribute="trailing" constant="10" id="vsD-Gb-214"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="accessoryView" destination="B0Q-uA-qxG" id="sMZ-ya-xPQ"/>
+                <outlet property="images" destination="B0Q-uA-qxG" id="PFk-jd-2kv"/>
+                <outlet property="settingLabel" destination="NAo-Hi-iwz" id="vvN-NO-pTk"/>
+            </connections>
+            <point key="canvasLocation" x="377.5" y="284"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="右箭头灰色" width="32" height="32"/>
+    </resources>
+</document>

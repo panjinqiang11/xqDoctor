@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item</key>
+	<array>
+		<dict>
+			<key>infos</key>
+			<string>花钱就能预约,赶快买黄牛票.高价票</string>
+			<key>title</key>
+			<string>预约指南</string>
+		</dict>
+		<dict>
+			<key>infos</key>
+			<string>[东院]106,108,110,111,684,685到东单路口北;814到东单路口南</string>
+			<key>title</key>
+			<string>交通指南</string>
+		</dict>
+		<dict>
+			<key>infos</key>
+			<string>[东院]北京市东城区帅府园一号 [西院]北京市西城区大木仓胡同41号</string>
+			<key>title</key>
+			<string>联系地址</string>
+		</dict>
+		<dict>
+			<key>infos</key>
+			<string>http://www.bjguahao.gov.cn/comm/index.html</string>
+			<key>title</key>
+			<string>医院网址</string>
+		</dict>
+	</array>
+</dict>
+</plist>

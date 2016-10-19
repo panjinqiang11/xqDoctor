@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WJJEnterViewController">
+            <connections>
+                <outlet property="ID" destination="rBE-F6-ZCF" id="Sbg-3l-Lda"/>
+                <outlet property="name" destination="LKo-WZ-0fL" id="6YL-No-0Qw"/>
+                <outlet property="phoneNumber" destination="DKq-75-JUt" id="OZ3-uU-is3"/>
+                <outlet property="testNumber" destination="Dkj-Uz-dZB" id="o7v-yE-kmd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户姓名" textAlignment="justified" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LKo-WZ-0fL">
+                    <rect key="frame" x="30" y="100" width="540" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户证件号码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rBE-F6-ZCF">
+                    <rect key="frame" x="30" y="140" width="540" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入手机号码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DKq-75-JUt">
+                    <rect key="frame" x="30" y="180" width="540" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入验证码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dkj-Uz-dZB">
+                    <rect key="frame" x="30" y="220" width="420" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUA-I9-Opm">
+                    <rect key="frame" x="460" y="220" width="110" height="30"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="获取验证码"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQE-vT-vMr">
+                    <rect key="frame" x="30" y="318" width="540" height="34"/>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="登 录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="touchEnterLogin:" destination="-1" eventType="touchUpInside" id="Nqb-Nx-Cca"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请使用114平台实名制用户登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqe-Ib-hgh">
+                    <rect key="frame" x="185" y="280" width="230" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.21341990695295032" green="0.65192089610702286" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="u44" translatesAutoresizingMaskIntoConstraints="NO" id="19y-1K-sCA">
+                    <rect key="frame" x="159" y="280" width="21" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="C9W-BL-855"/>
+                        <constraint firstAttribute="height" constant="21" id="hcn-Yr-Ivj"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LKo-WZ-0fL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="2Hs-xC-rMD"/>
+                <constraint firstAttribute="trailing" secondItem="RUA-I9-Opm" secondAttribute="trailing" constant="30" id="3hs-mA-asa"/>
+                <constraint firstItem="DKq-75-JUt" firstAttribute="top" secondItem="rBE-F6-ZCF" secondAttribute="bottom" constant="10" id="4xJ-my-TrY"/>
+                <constraint firstItem="vqe-Ib-hgh" firstAttribute="leading" secondItem="19y-1K-sCA" secondAttribute="trailing" constant="5" id="FSh-WV-Zoo"/>
+                <constraint firstItem="rBE-F6-ZCF" firstAttribute="top" secondItem="LKo-WZ-0fL" secondAttribute="bottom" constant="10" id="IW3-Ld-abD"/>
+                <constraint firstItem="DKq-75-JUt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="M3i-72-aSj"/>
+                <constraint firstItem="LKo-WZ-0fL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="Mst-V6-kaU"/>
+                <constraint firstAttribute="trailing" secondItem="DKq-75-JUt" secondAttribute="trailing" constant="30" id="NEd-ml-Rz1"/>
+                <constraint firstItem="Dkj-Uz-dZB" firstAttribute="top" secondItem="DKq-75-JUt" secondAttribute="bottom" constant="10" id="QTR-kP-aQf"/>
+                <constraint firstItem="Dkj-Uz-dZB" firstAttribute="leading" secondItem="DKq-75-JUt" secondAttribute="leading" id="ReW-W5-KAN"/>
+                <constraint firstItem="vqe-Ib-hgh" firstAttribute="top" secondItem="Dkj-Uz-dZB" secondAttribute="bottom" constant="30" id="TXA-p4-Mfa"/>
+                <constraint firstItem="vqe-Ib-hgh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XCB-gu-jF9"/>
+                <constraint firstItem="rBE-F6-ZCF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="XVr-l6-bb5"/>
+                <constraint firstAttribute="trailing" secondItem="rBE-F6-ZCF" secondAttribute="trailing" constant="30" id="YvG-gM-o0Z"/>
+                <constraint firstItem="KQE-vT-vMr" firstAttribute="leading" secondItem="LKo-WZ-0fL" secondAttribute="leading" id="bnk-P4-ccq"/>
+                <constraint firstAttribute="trailing" secondItem="Dkj-Uz-dZB" secondAttribute="trailing" constant="150" id="bwQ-f4-eZG"/>
+                <constraint firstAttribute="trailing" secondItem="LKo-WZ-0fL" secondAttribute="trailing" constant="30" id="ePw-Cr-Kt2"/>
+                <constraint firstItem="KQE-vT-vMr" firstAttribute="trailing" secondItem="LKo-WZ-0fL" secondAttribute="trailing" id="egV-9o-GOK"/>
+                <constraint firstItem="RUA-I9-Opm" firstAttribute="top" secondItem="DKq-75-JUt" secondAttribute="bottom" constant="10" id="im8-fB-gln"/>
+                <constraint firstItem="vqe-Ib-hgh" firstAttribute="leading" secondItem="19y-1K-sCA" secondAttribute="trailing" constant="14" id="mgA-bt-ENH"/>
+                <constraint firstItem="RUA-I9-Opm" firstAttribute="leading" secondItem="Dkj-Uz-dZB" secondAttribute="trailing" constant="10" id="rr8-hY-89s"/>
+                <constraint firstItem="vqe-Ib-hgh" firstAttribute="centerY" secondItem="19y-1K-sCA" secondAttribute="centerY" id="sW1-fk-3Ez"/>
+                <constraint firstItem="KQE-vT-vMr" firstAttribute="top" secondItem="Dkj-Uz-dZB" secondAttribute="bottom" constant="68" id="zmM-MF-MkT"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="mgA-bt-ENH"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="u44" width="50" height="50"/>
+    </resources>
+</document>

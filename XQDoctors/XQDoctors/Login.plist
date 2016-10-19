@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item</key>
+	<array>
+		<dict>
+			<key>targetVc</key>
+			<string>HelpController</string>
+			<key>image</key>
+			<string>右箭头 (1)</string>
+			<key>title</key>
+			<string>设置与帮助</string>
+		</dict>
+		<dict>
+			<key>targetVc</key>
+			<string>feedBackController</string>
+			<key>image</key>
+			<string>右箭头 (1)</string>
+			<key>title</key>
+			<string>意见反馈</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CCHospitalCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CCHospitalCell" id="iN0-l3-epB" customClass="CCHospitalCell">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hospital" translatesAutoresizingMaskIntoConstraints="NO" id="Upp-c5-nPq">
+                    <rect key="frame" x="10" y="10" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="2AM-fz-jtz"/>
+                        <constraint firstAttribute="height" constant="60" id="mzL-Le-pna"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京协和医院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0X-Zd-cRM">
+                    <rect key="frame" x="78" y="10" width="90" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三级甲等" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUj-Ad-J4J">
+                    <rect key="frame" x="188" y="10" width="56" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="local_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Lmg-Fw-1mt">
+                    <rect key="frame" x="78" y="46" width="20" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="E8l-dz-T1m"/>
+                        <constraint firstAttribute="width" constant="20" id="jB7-2G-4on"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京市东城区帅府园一号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebp-DL-Tl4">
+                    <rect key="frame" x="103" y="53" width="154" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiantou_right" translatesAutoresizingMaskIntoConstraints="NO" id="nxQ-uB-FL7">
+                    <rect key="frame" x="330" y="30" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="N1V-5h-rXb"/>
+                        <constraint firstAttribute="height" constant="20" id="jCA-U6-zM3"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TpF-La-zAG">
+                    <rect key="frame" x="0.0" y="0.0" width="363" height="1"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="CZZ-Lj-A4e"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8M-qB-o00">
+                    <rect key="frame" x="271" y="52" width="32" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.011764705882352941" green="0.60784313725490191" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TpF-La-zAG" secondAttribute="trailing" id="8Yn-Xa-Eah"/>
+                <constraint firstItem="Lmg-Fw-1mt" firstAttribute="leading" secondItem="Upp-c5-nPq" secondAttribute="trailing" constant="8" id="906-eG-EnJ"/>
+                <constraint firstAttribute="bottom" secondItem="Upp-c5-nPq" secondAttribute="bottom" constant="10" id="AG3-lU-Zh0"/>
+                <constraint firstItem="TpF-La-zAG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BB8-wf-NHZ"/>
+                <constraint firstItem="Upp-c5-nPq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="K4H-Gd-1wa"/>
+                <constraint firstItem="TpF-La-zAG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KjB-ks-35f"/>
+                <constraint firstItem="V0X-Zd-cRM" firstAttribute="leading" secondItem="Upp-c5-nPq" secondAttribute="trailing" constant="8" id="OAy-YZ-Nys"/>
+                <constraint firstItem="O8M-qB-o00" firstAttribute="leading" secondItem="ebp-DL-Tl4" secondAttribute="trailing" constant="14" id="WlJ-5i-q55"/>
+                <constraint firstItem="V0X-Zd-cRM" firstAttribute="top" secondItem="Upp-c5-nPq" secondAttribute="top" id="XKS-nE-dd4"/>
+                <constraint firstItem="Upp-c5-nPq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="ZMl-8p-yGo"/>
+                <constraint firstItem="ebp-DL-Tl4" firstAttribute="bottom" secondItem="Upp-c5-nPq" secondAttribute="bottom" id="byv-43-bQX"/>
+                <constraint firstItem="SUj-Ad-J4J" firstAttribute="leading" secondItem="V0X-Zd-cRM" secondAttribute="trailing" constant="20" id="cCP-6b-6rE"/>
+                <constraint firstItem="nxQ-uB-FL7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="cTe-dU-eWe"/>
+                <constraint firstItem="ebp-DL-Tl4" firstAttribute="leading" secondItem="Lmg-Fw-1mt" secondAttribute="trailing" constant="5" id="f1F-Vl-uLm"/>
+                <constraint firstItem="SUj-Ad-J4J" firstAttribute="top" secondItem="Upp-c5-nPq" secondAttribute="top" id="hzP-b7-GGA"/>
+                <constraint firstItem="Upp-c5-nPq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="i0K-Yt-BYq"/>
+                <constraint firstItem="Upp-c5-nPq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="inN-pk-osQ"/>
+                <constraint firstItem="O8M-qB-o00" firstAttribute="bottom" secondItem="Upp-c5-nPq" secondAttribute="bottom" id="mkB-Yv-CU2"/>
+                <constraint firstAttribute="trailing" secondItem="nxQ-uB-FL7" secondAttribute="trailing" constant="13" id="qqD-N4-MXH"/>
+                <constraint firstItem="Lmg-Fw-1mt" firstAttribute="bottom" secondItem="Upp-c5-nPq" secondAttribute="bottom" id="sa1-uM-od4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="AG3-lU-Zh0"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="282.5" y="363"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hospital" width="52" height="50"/>
+        <image name="jiantou_right" width="64" height="64"/>
+        <image name="local_icon" width="32" height="32"/>
+    </resources>
+</document>

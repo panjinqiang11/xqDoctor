@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DayDateView">
+            <rect key="frame" x="0.0" y="0.0" width="40" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jy-MW-qPw">
+                    <rect key="frame" x="0.0" y="0.0" width="40" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="AEX-yN-wGG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05-06" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejY-re-IHW">
+                    <rect key="frame" x="0.0" y="23" width="40" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="DjK-5x-a0c"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ejY-re-IHW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="63I-bM-NhZ"/>
+                <constraint firstAttribute="bottom" secondItem="ejY-re-IHW" secondAttribute="bottom" id="7rc-zD-Xjw"/>
+                <constraint firstAttribute="trailing" secondItem="ejY-re-IHW" secondAttribute="trailing" id="ANM-Se-czz"/>
+                <constraint firstAttribute="trailing" secondItem="7jy-MW-qPw" secondAttribute="trailing" id="Eo2-0F-N7F"/>
+                <constraint firstItem="7jy-MW-qPw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MlE-qN-70O"/>
+                <constraint firstItem="7jy-MW-qPw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oaG-jo-Hkr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="riQiLabel" destination="ejY-re-IHW" id="gxG-dm-5MA"/>
+                <outlet property="weakLabel" destination="7jy-MW-qPw" id="oO8-bt-i5N"/>
+            </connections>
+            <point key="canvasLocation" x="93.5" y="124"/>
+        </view>
+    </objects>
+</document>

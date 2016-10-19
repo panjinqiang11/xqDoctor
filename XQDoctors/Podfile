@@ -1,0 +1,15 @@
+platform :ios, '7.0'
+
+target 'XQDoctors' do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'TAPageControl'
+pod 'Masonry'
+pod 'MMDrawerController'
+pod 'TPKeyboardAvoiding'
+pod 'MJRefresh'
+pod 'FMDB'
+pod 'JTCalendar'
+
+end

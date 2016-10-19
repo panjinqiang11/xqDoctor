@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonIconController">
+            <connections>
+                <outlet property="iconImage" destination="y5i-ma-SZO" id="cP2-0k-KIq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="539"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJi-jl-7Qu">
+                    <rect key="frame" x="40" y="50" width="240" height="240"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="Ing-P4-RI9"/>
+                        <constraint firstAttribute="height" constant="240" id="rmO-cg-Xpb"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.layerBorderColor">
+                            <color key="value" red="0.54228766025641018" green="0.54228766025641018" blue="0.54228766025641018" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y5i-ma-SZO">
+                    <rect key="frame" x="40" y="50" width="240" height="240"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="MHt-18-mSw"/>
+                        <constraint firstAttribute="height" constant="240" id="fA1-2W-hg9"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="snZ-dg-XQA">
+                    <rect key="frame" x="40" y="320" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.32941176470588235" green="0.62745098039215685" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="3va-BT-80A"/>
+                    </constraints>
+                    <state key="normal" title="拍照">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.layerBorderColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cameraBtn:" destination="-1" eventType="touchUpInside" id="RZv-U8-9a7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HP-SW-ZIm">
+                    <rect key="frame" x="180" y="320" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.32156862745098042" green="0.60784313725490191" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="yIe-rr-hBi"/>
+                    </constraints>
+                    <state key="normal" title="本地图片">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.layerBorderColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="photoBtn:" destination="-1" eventType="touchUpInside" id="O1O-a2-f8L"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="y5i-ma-SZO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0Mz-JO-AKh"/>
+                <constraint firstItem="snZ-dg-XQA" firstAttribute="leading" secondItem="y5i-ma-SZO" secondAttribute="leading" id="KmK-k2-ufZ"/>
+                <constraint firstItem="fJi-jl-7Qu" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="Taq-aY-Vaa"/>
+                <constraint firstItem="snZ-dg-XQA" firstAttribute="top" secondItem="y5i-ma-SZO" secondAttribute="bottom" constant="30" id="gkO-Dd-2ZC"/>
+                <constraint firstItem="fJi-jl-7Qu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jDt-IV-nA9"/>
+                <constraint firstItem="9HP-SW-ZIm" firstAttribute="trailing" secondItem="y5i-ma-SZO" secondAttribute="trailing" id="k2h-7A-VqX"/>
+                <constraint firstItem="9HP-SW-ZIm" firstAttribute="top" secondItem="y5i-ma-SZO" secondAttribute="bottom" constant="30" id="ksk-ob-l3Q"/>
+                <constraint firstItem="y5i-ma-SZO" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="vM2-Db-nk6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="323" y="144.5"/>
+        </view>
+    </objects>
+</document>

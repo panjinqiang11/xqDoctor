@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="uTq-j7-FRO">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="photo.png" translatesAutoresizingMaskIntoConstraints="NO" id="wKl-6F-e0I">
+                    <rect key="frame" x="20" y="22" width="120" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="Yve-1D-VJq"/>
+                        <constraint firstAttribute="height" constant="100" id="kPU-Ww-SzS"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="北京协和医院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edW-Rq-Cax">
+                    <rect key="frame" x="160" y="22" width="120" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="三级甲等" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOq-t8-UAZ">
+                    <rect key="frame" x="160" y="71" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QRE-AK-ehb">
+                    <rect key="frame" x="20" y="149" width="383" height="1"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="43X-b2-EFU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="edW-Rq-Cax" firstAttribute="top" secondItem="wKl-6F-e0I" secondAttribute="top" id="0bg-z3-739"/>
+                <constraint firstItem="edW-Rq-Cax" firstAttribute="leading" secondItem="wKl-6F-e0I" secondAttribute="trailing" constant="20" id="7w4-p6-CNg"/>
+                <constraint firstAttribute="bottom" secondItem="QRE-AK-ehb" secondAttribute="bottom" id="8a7-P0-DoE"/>
+                <constraint firstItem="QRE-AK-ehb" firstAttribute="leading" secondItem="uTq-j7-FRO" secondAttribute="leading" constant="20" id="BCK-tK-gZc"/>
+                <constraint firstItem="wKl-6F-e0I" firstAttribute="leading" secondItem="uTq-j7-FRO" secondAttribute="leading" constant="20" id="CEu-fU-aaG"/>
+                <constraint firstItem="wKl-6F-e0I" firstAttribute="centerY" secondItem="uTq-j7-FRO" secondAttribute="centerY" id="DNS-HX-QG9"/>
+                <constraint firstItem="KOq-t8-UAZ" firstAttribute="top" secondItem="edW-Rq-Cax" secondAttribute="bottom" constant="25" id="MpY-Xx-5Gx"/>
+                <constraint firstAttribute="trailing" secondItem="QRE-AK-ehb" secondAttribute="trailing" id="bY3-Kl-jhn"/>
+                <constraint firstItem="KOq-t8-UAZ" firstAttribute="leading" secondItem="edW-Rq-Cax" secondAttribute="leading" id="phG-pe-URV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="273.5" y="259"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="photo.png" width="128" height="128"/>
+    </resources>
+</document>

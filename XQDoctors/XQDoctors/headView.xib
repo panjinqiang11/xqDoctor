@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="rwdSettingController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="headView">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="125"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="头像11" translatesAutoresizingMaskIntoConstraints="NO" id="bti-n8-Ikb">
+                    <rect key="frame" x="8" y="28" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="95s-1v-vv2"/>
+                        <constraint firstAttribute="width" constant="70" id="esV-lK-3CV"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王先生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wy-iT-Vri">
+                    <rect key="frame" x="93" y="28" width="57" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocE-5P-Mvb">
+                    <rect key="frame" x="93" y="70" width="108" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="基本资料设置">
+                        <color key="titleColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="personBtn:" destination="-1" eventType="touchUpInside" id="XdY-ti-otY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4wy-iT-Vri" firstAttribute="top" secondItem="bti-n8-Ikb" secondAttribute="top" id="3kd-KT-695"/>
+                <constraint firstItem="4wy-iT-Vri" firstAttribute="leading" secondItem="ocE-5P-Mvb" secondAttribute="leading" id="9q3-VJ-asE"/>
+                <constraint firstItem="bti-n8-Ikb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Et4-jm-7i7"/>
+                <constraint firstItem="bti-n8-Ikb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="KUP-q6-YcV"/>
+                <constraint firstItem="ocE-5P-Mvb" firstAttribute="leading" secondItem="4wy-iT-Vri" secondAttribute="leading" id="OlV-oh-Ck3"/>
+                <constraint firstItem="4wy-iT-Vri" firstAttribute="leading" secondItem="bti-n8-Ikb" secondAttribute="trailing" constant="15" id="ZUu-cV-ecx"/>
+                <constraint firstItem="4wy-iT-Vri" firstAttribute="leading" secondItem="bti-n8-Ikb" secondAttribute="trailing" constant="15" id="dKv-nz-hWn"/>
+                <constraint firstItem="ocE-5P-Mvb" firstAttribute="top" secondItem="4wy-iT-Vri" secondAttribute="bottom" constant="20" id="eH4-5E-mmO"/>
+                <constraint firstItem="ocE-5P-Mvb" firstAttribute="leading" secondItem="bti-n8-Ikb" secondAttribute="trailing" constant="20" id="fuN-eD-sMq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="ZUu-cV-ecx"/>
+                    <exclude reference="OlV-oh-Ck3"/>
+                    <exclude reference="fuN-eD-sMq"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="293.5" y="229.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="头像11" width="1024" height="1024"/>
+    </resources>
+</document>
